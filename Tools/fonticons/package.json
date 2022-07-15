@@ -1,0 +1,17 @@
+{
+  "name": "fonticons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "svg:optimize": "svgo -f icons -o icons",
+    "svg:font": "svgtofont --sources icons --output fonts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "svgo": "^2.8.0",
+    "svgtofont": "^3.17.7"
+  }
+}

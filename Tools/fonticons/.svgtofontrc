@@ -1,0 +1,19 @@
+{
+  "fontName": "iconic",
+  "outSVGReact": false,
+  "css": {
+    "output": "./css",
+    "cssPath": "../fonts/",
+    "include": "\\.(css)$"
+  },
+  "website": {
+    "title": "iconic",
+    "logo": "favicon.svg",
+    "version": "1.0.0",
+    "meta": {
+      "description": "Converts SVG fonts to TTF/EOT/WOFF/WOFF2/SVG format.",
+      "keywords": "svgtofont,TTF,EOT,WOFF,WOFF2,SVG",
+      "favicon": "./favicon.png"
+    }
+  }
+}
